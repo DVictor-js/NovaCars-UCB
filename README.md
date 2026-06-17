@@ -1,7 +1,1 @@
-# NovaCars-UCB
-
-Membros:
-
-VICTOR DE JESUS SOUZA (UC24202209) |
-ARTHUR  FAGUNDES COSTA |
-DAVI RODRIGUES NEIVA 
+Pasta novacars contendo todo o projeto!
