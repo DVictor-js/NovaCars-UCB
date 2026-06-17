@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "NOVACARS",
+    "slug": "novacars",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "novacars",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#131313",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.novacars.app"
+    },
+    "android": {
+      "package": "com.novacars.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#131313"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O NOVACARS precisa acessar suas fotos para você adicionar imagens do veículo no anúncio."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
